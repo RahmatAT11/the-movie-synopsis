@@ -5,6 +5,8 @@
       "name": "my-first-react-app",
       "dependencies": {
         "@tailwindcss/vite": "^4.1.10",
+        "appwrite": "^18.1.1",
+        "node-appwrite": "^17.0.0",
         "react": "^19.1.0",
         "react-dom": "^19.1.0",
         "react-use": "^17.6.0",
@@ -254,6 +256,8 @@
 
     "ansi-styles": ["ansi-styles@4.3.0", "", { "dependencies": { "color-convert": "^2.0.1" } }, "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg=="],
 
+    "appwrite": ["appwrite@18.1.1", "", {}, "sha512-krwHjuwJcF+9Ig2+nqOEKMA/5kPIFhwwZsaLc7Gb8y2oP6EnG4ZMRPeHTFscdevOtVQj2Ax92cYYWAEvzlrc7A=="],
+
     "argparse": ["argparse@2.0.1", "", {}, "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q=="],
 
     "balanced-match": ["balanced-match@1.0.2", "", {}, "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw=="],
@@ -443,6 +447,10 @@
     "nanoid": ["nanoid@3.3.11", "", { "bin": { "nanoid": "bin/nanoid.cjs" } }, "sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w=="],
 
     "natural-compare": ["natural-compare@1.4.0", "", {}, "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw=="],
+
+    "node-appwrite": ["node-appwrite@17.0.0", "", { "dependencies": { "node-fetch-native-with-agent": "1.7.2" } }, "sha512-5Moi5ENPnoAfU1/6CZP9K2NTuB6Nm3dSyhokno+24RDuP7czjXCdwzfeyjmyHieggbrLkN89AYSOv9W1XkCL9w=="],
+
+    "node-fetch-native-with-agent": ["node-fetch-native-with-agent@1.7.2", "", {}, "sha512-5MaOOCuJEvcckoz7/tjdx1M6OusOY6Xc5f459IaruGStWnKzlI1qpNgaAwmn4LmFYcsSlj+jBMk84wmmRxfk5g=="],
 
     "node-releases": ["node-releases@2.0.19", "", {}, "sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw=="],
 
